@@ -1,4 +1,4 @@
-export const moodOptions = [
+export const MOOD_OPTIONS = [
 	{
 		value: 'happy',
 		label: 'Happy',
