@@ -1,6 +1,7 @@
 <script lang="js">
 	import { Button } from '$lib/components/ui/Button';
 	import { SelectDropdown } from '$lib/components/ui/SelectDropdown';
+	import { Slider } from '$lib/components/ui/Slider';
 
 	let options = [
 		{ value: 'happy', label: 'happy' },
@@ -9,6 +10,7 @@
 		{ value: 'low', label: 'low' }
 	];
 	let selectedValue;
+	let sliderValue;
 	$: console.log(selectedValue);
 </script>
 
@@ -16,4 +18,6 @@
 	<Button>This is barca</Button>
 	<SelectDropdown {options} bind:value={selectedValue} />
 	<p>{selectedValue}</p>
+	<Slider bind:value={sliderValue} step={20} />
+	<p>Current value: {sliderValue[0]}</p>
 </section>
