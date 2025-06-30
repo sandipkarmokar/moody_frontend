@@ -4,14 +4,14 @@
 	export let disabled = false;
 	export let label = 'Enter';
 
-	let className = '';
+	let className = 'bg-primary-500 text-white  px-4 py-2';
 	export { className as class };
 </script>
 
 <button
 	{type}
 	{disabled}
-	class={`bg-primary-500 hover:bg-primary-600 rounded px-4 py-2 font-semibold text-white transition ${className}`}
+	class={`hover:bg-primary-600 rounded font-semibold transition ${className}`}
 	on:click={onClick}
 >
 	<slot />

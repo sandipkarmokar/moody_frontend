@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { SelectDropdown } from '../ui/SelectDropdown';
 	import { Slider } from '../ui/Slider';
+	import { Button } from '../ui/Button';
 
 	import { MOOD_OPTIONS } from '$lib/data/moodOptions';
 	import { ENERGY_LEVELS_OPTIONS } from '$lib/data/energyLevelOptions';
@@ -31,5 +32,8 @@
 				{/each}
 			</div>
 		</div>
+	</div>
+	<div class="mt-12">
+		<Button class="bg-coral rounded-xl px-4 py-3 text-lg font-medium">Submit!!!</Button>
 	</div>
 </section>
