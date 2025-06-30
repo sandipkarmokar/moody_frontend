@@ -34,6 +34,10 @@
 		</div>
 	</div>
 	<div class="mt-12">
-		<Button class="bg-coral rounded-xl px-4 py-3 text-lg font-medium">Submit!!!</Button>
+		<Button
+			type="submit"
+			class="bg-coral hover:bg-coral-dark text-md rounded-xl px-4 py-3 font-medium"
+			>Submit!!!</Button
+		>
 	</div>
 </section>
