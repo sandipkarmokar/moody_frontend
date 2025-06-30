@@ -6,6 +6,7 @@
 	import { ENERGY_LEVELS_OPTIONS } from '$lib/data/energyLevelOptions';
 
 	let selectedMood;
+	let selectedEnergyLevel;
 </script>
 
 <section class="bg-lavender-dark h-full w-full gap-y-6 rounded-xl p-8 shadow-xl">
@@ -18,7 +19,7 @@
 		<p class="text-2xl font-bold">What's your current energy level?</p>
 		<div class="flex flex-col items-center justify-center">
 			<div class="w-[90%]">
-				<Slider />
+				<Slider bind:value={selectedEnergyLevel} />
 			</div>
 			<div class="mt-4 flex w-full justify-between">
 				{#each ENERGY_LEVELS_OPTIONS as option}
