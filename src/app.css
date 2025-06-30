@@ -5,3 +5,24 @@
 @import '@skeletonlabs/skeleton/themes/cerberus';
 
 @source '../node_modules/@skeletonlabs/skeleton-svelte/dist';
+
+@theme {
+	--color-energy-0: #d4e6f1; /* Ice Blue (💀) */
+	--color-energy-20: #b5ead7; /* Seafoam (🪫) */
+	--color-energy-40: #fff9d0; /* Pale Yellow (🌙) */
+	--color-energy-60: #ffd3b6; /* Peach (🌤️) */
+	--color-energy-80: #ff8c82; /* Coral (⚡) */
+	--color-energy-100: #ff6b6b; /* Bright Coral (🔥) */
+
+	--color-mood-happy: #fff9d0;
+	--color-mood-calm: #d4e6f1;
+	--color-mood-sad: #e2d4f5;
+	--color-mood-excited: #ffd3b6;
+	--color-mood-anxious: #d4c1ec;
+
+	--color-lavender-light: #f8f4ff;
+	--color-lavender-dark: #e2d4f5;
+
+	--color-coral: #ff8c82;
+	--color-coral-dark: #e57a70;
+}
